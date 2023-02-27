@@ -1,0 +1,86 @@
+body {
+    color: #333333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+}
+
+h1 {
+    background-image: url(img/sobre);
+    padding: 10px;
+}
+
+h2 {
+    border-bottom: 2px solid #333333;
+    margin-top: 30px;
+}
+
+p {
+    padding: 0 45px;
+    text-indent: 15px;
+}
+
+figure {
+    background-color: #F2EDED;
+    border: 1px solid #ccc; /* outras alternativas seriam dashed, dotted, double, groove. */ 
+    text-align: center; /* outras alternativas seriam left, right e justify. */
+    padding: 15px;/* Pode ser padding, padding top, padding right, padding botton, padding left */
+    margin: 30px; /* Igual regras do padding. 15px - aplica pra todos, 15 20px aplica pra cima baixo, para esquerda e direit, mais de dois valores, aplica sentido horario*/
+}
+
+figcaption {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+#centro-distribuicao {
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+#rodape {
+    color: #777;
+    margin: 30px 0;
+    padding: 30px 0;
+}
+
+#rodape img {
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 94px;
+}
+
+#familia-pelho {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+.sacola {
+    background: url(../img/sacola.png) no-repeat top right;
+    font-size: 14px;
+    padding-right: 35px;
+    text-align: right;
+    width: 140px;
+}
+
+.menu-opcoes ul {
+    font-size: 15px;
+}
+
+.menu-opcoes a {
+    color: #003366;
+}
+
+/* sistema de cores RGB
+h3 {
+    color: rgb(255, 200, 0);
+}
+
+sistema de cores hexadecimal
+h3 {
+    background: %F2EDED;
+}
+*/ 
+
